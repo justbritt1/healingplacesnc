@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healing Places - Non-Profit Organization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4c84af;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Healing Places</h1>
+        <p>Bringing healing and hope to communities in need</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#programs">Our Programs</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Healing Places is a non-profit organization dedicated to creating safe spaces for healing and growth. We focus on providing support, resources, and services to individuals and communities in need. Our mission is to foster emotional, mental, and physical well-being for all.</p>
+    </section>
+
+    <section id="programs" class="container">
+        <h2>Our Programs</h2>
+        <div class="row">
+            <div class="column">
+                <h3>Community Outreach</h3>
+                <p>We offer outreach services to underserved communities, providing access to resources and educational workshops.</p>
+            </div>
+            <div class="column">
+                <h3>Counseling & Support</h3>
+                <p>Our counseling services are designed to provide emotional support to individuals in need, with a focus on trauma recovery.</p>
+            </div>
+            <div class="column">
+                <h3>Wellness Workshops</h3>
+                <p>We offer wellness workshops and activities to promote mental and physical health, including yoga, mindfulness, and art therapy.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, want to learn more about our work, or wish to get involved, please reach out to us!</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Healing Places | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
